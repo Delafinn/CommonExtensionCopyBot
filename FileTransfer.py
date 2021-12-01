@@ -14,7 +14,8 @@ if OSquestion == "Windows" or  OSquestion == "windows":
 if OSquestion == "Mac" or OSquestion == "linux": # move to the users directory /Users if on MacOS or linux
     usersdirectory = os.chdir(r"/Users")
     print(os.listdir(usersdirectory))
-
+else:
+    print("please type windows or Mac.")
 
 while True:  # mainloop
     pq = input("Do you want to proceed?")
@@ -26,8 +27,6 @@ while True:  # mainloop
         sourcefiles = os.listdir(sourcepath)
         print(sourcefiles) # listing the files in the directory location
         destinationpath = input("where do you want to send the files?") # asking the user where do they want the pictures?
-    else:
-        print("please type windows or Mac.")
 
 #  the code that transfers files
 #  if files end in common file extensions then move them to the desired users location
