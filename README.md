@@ -1,2 +1,3 @@
 # CommonExtensionCopyBot
 Copy pictures, videos, text, and pdf files to your desired location whether its another folder or USB
+Make sure to use full file paths when copying files. if you are transferring files from the Pictures folder in windows on your user directory you would tell the bot this example: C:\Users\Users name\Pictures and the same goes for when you are entering your destination directory like a USB would be for example B:\ or M:\randomfoldername\picturebackup or whatever drive letter and file path you are transferring to. The same goes for macOS and Linux. ( I haven't tested on Linux) but should work the same as mac file paths.
